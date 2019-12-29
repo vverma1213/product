@@ -1,5 +1,4 @@
 # product
-Sapient Case study
 
 Below are the end points as follows:
 
