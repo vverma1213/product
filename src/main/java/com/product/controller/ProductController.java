@@ -33,7 +33,7 @@ public class ProductController {
     }
 
     @PostMapping("/products")
-    public void addBook(@RequestBody Product product) {
+    public void addProduct(@RequestBody Product product) {
         productService.addProduct(product);
     }
 
@@ -43,7 +43,7 @@ public class ProductController {
     }
 
     @DeleteMapping("/products/{productId}")
-    public void deleteBook(@PathVariable Long productId) {
+    public void deleteProduct(@PathVariable Long productId) {
         productService.deleteProduct(productService.getProduct(productId));
     }
     
